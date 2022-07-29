@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Registration Form</title>
+  <link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <h1>Registration Form</h1>
+  <p><i>Please fill out this form with the required information</i></p>
+  <form action="" method="post">
+    <fieldset>
+      <label>Full Name: <input type="text" name="full-name" placeholder="Last Name first" required /></label>
+      <div>
+        <label>Phone Number:
+          <select type="dropdown" id="dropdown" required>
+            <option>Algeria +213</option>
+            <option>Algeria +213</option>
+            <option>Angola +244</option>
+            <option>Benin +229</option>
+            <option>Botswana +267</option>
+            <option>Burundi +257</option>
+            <option>Burkina Faso +226</option>
+            <option>Cameroon +237</option>
+            <option>Cape Verde +238</option>
+            <option>Central African Republic +236</option>
+            <option>Chad +235</option>
+            <option>Comoros +269</option>
+            <option>Cote d Ivoire +225</option>
+            <option>DR Congo +243</option>
+            <option>Djibouti +253</option>
+            <option>Egypt +20</option>
+            <option>Equatorial Guinea +240</option>
+            <option>Eritrea +291-1</option>
+            <option>Ethiopia +251</option>
+            <option>Gabon +241</option>
+            <option>Gambia +220</option>
+            <option>Ghana +233</option>
+            <option>Guinea +224</option>
+            <option>Guinea-Bissau +245</option>
+            <option>Kenya +254</option>
+            <option>Lesotho +266</option>
+            <option>Liberia +231</option>
+            <option>Libya +218</option>
+            <option>Madagascar +261</option>
+            <option> Malawi +265</option>
+            <option>Mali +223</option>
+            <option>Mauritania +222</option>
+            <option>Mauritius +230</option>
+            <option>Morocco +212</option>
+            <option>Mozambique +258</option>
+            <option>Namibia +264</option>
+            <option>Niger +227</option>
+            <option>Nigeria +234</option>
+            <option>Republic of the Congo +242</option>
+            <option>Réunion +262</option>
+            <option>Rwanda +250</option>
+            <option>São Tomé and Principe +239</option>
+            <option>Senegal +221</option>
+            <option>Seychelles +248</option>
+            <option>Sierra Leone +232</option>
+            <option>Somalia +252</option>
+            <option>South Africa +27</option>
+            <option>South Sudan +211</option>
+            <option>Sudan +249</option>
+            <option>Swaziland +268v</option>
+            <option>Tanzania +255</option>
+            <option>Togo +228</option>
+            <option>Tunisia +216</option>
+            <option>Uganda +256</option>
+            <option>Zambia +260</option>
+            <option>Zimbabwe +263</option>
+          </select>
+          <input type="number" name="Phone-number" id="phone-number" placeholder="Digits only" required />
+        </label>
+      </div>
+      <label>Email: <input type="email" name="email" placeholder="Email Address" required /></label>
+      <label>Create a New Password: <input type="password" name="password" pattern="[a-z0-5]{8,}" required /></label>
+      <label>Confirm Password: <input type="password" name="confirm-password" pattern="[a-z0-5]{8,}" required /></label>
+    </fieldset>
+
+    <fieldset>
+      <label>Upload a profile picture: <input type="file" name="file" /></label>
+      </label>
+      <label>How did you hear about us?
+        <select name="referrer">
+          <option value="">(select one)</option>
+          <option value="1">Google</option>
+          <option value="2">From a friend</option>
+          <option value="3">Online advert</option>
+          <option value="4">Our Website</option>
+          <option value="4">Others</option>
+        </select>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <label>
+        <input type="radio" name="account-type" class="inline" /> Personal Account</label>
+      <input type="radio" name="account-type" class="inline" /> Business Account</label>
+      <label>
+        <input type="checkbox" name="terms" class="inline" required /><i> I have gone through my details and they are
+          correct</i>
+      </label>
+    </fieldset>
+
+    <input type="submit" value="Submit" />
+  </form>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+
+</body>
+
+</html>

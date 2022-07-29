@@ -1,0 +1,96 @@
+html {
+  box-sizing: border-box;
+  background-image: url(Registration_background.jpeg);
+}
+
+
+body {
+    width: 50%;
+    height: 100%;
+    margin-top: -1%;
+    background-color: rgb(41, 149, 243);
+      color: black;
+      font-family: Tahoma;
+      font-size: 16px;
+      align-items: center;
+      margin-left: 25%;
+  }
+  
+  h1 {
+    margin: 0.5em auto ;
+    text-align: center;
+    border-bottom: 3px;
+    margin-bottom: 0.5em;
+  }
+
+  p {
+    text-align:center;
+    margin-bottom: -0.5em;
+  }
+
+  form {
+    width: 100%;
+      margin: 0 auto;
+    padding-bottom: 2em;
+    top: 70px;
+    
+  }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f
+    background-color: rgb(41, 149, 243);
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  label {
+    display: block;
+      margin: 0.5rem 0;
+      background-color:rgb(41, 149, 243);
+      border: none
+  }
+
+  select {
+    width:20%;
+  }
+
+  label > #phone-number {
+    width:54.5%;
+  }
+  
+  input {
+    margin: 10px 0 0 0;
+      width: 95%;
+    min-height: 2em;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    color: bold whitesmoke; 
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: green;
+    border-color:rgb(41, 149, 243) ;
+    min-width: 300px;
+  }
+  
+  
+   ::placeholder {
+    font-size: 16px;
+    color: black;
+    font-style: italic;
+  }
